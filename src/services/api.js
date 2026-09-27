@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://sentifi-backend-gqdd.vercel.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://sentifi-backend-np57.vercel.app';
 
 export const analyzeSentiment = async (text) => {
   const response = await axios.post(API_URL, { text });
